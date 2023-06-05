@@ -1,6 +1,102 @@
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: black 1px solid;
+    border: red 1px solid;
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+#header__title {
+    font-weight: 1000;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+#header__subtitle {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+#header__bannerad {
+    font-size: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+#header__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topads {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    justify-content: space-evenly;
+}
+
+.intros {
+    display: flex;
+    flex-flow: row;
+}
+
+#featuredtruth__title {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    animation: move-left-to-right linear 6.5s infinite;
+}
+
+#featuredtruth__text {
+    position: relative;
+    /* -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, .2)); */
+}
+
+#featuredtruth__text span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    /* font-size: 2em; */
+    animation: wave ease-in-out 2s infinite;
+    animation-delay: calc(.1s*var(--i));
+}
+
+@keyframes move-left-to-right {
+    /* from {
+        transform: translateX(-80%);
+    }
+    to {
+        transform: translateX(80%);
+    } */
+}
+@keyframes wave {
+    /* 0% {
+        transform: translateY(0px);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+
+    40%,
+    100% {
+        transform: translateY(0px);
+    } */
+}
+
+#featuredtruth__construction {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.chatgpt_and_truths {
+    /* font-size: 40px; */
 }
