@@ -7,3 +7,9 @@ const renderAllHTML = () => {
 }
 
 renderAllHTML()
+
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+    alert("Your computer's location is now hidden from the government!")
+})
