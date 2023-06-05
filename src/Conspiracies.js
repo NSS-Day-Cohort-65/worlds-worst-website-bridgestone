@@ -15,7 +15,7 @@ const conspiracies = getConspiracies()
 export const ConspiracyHTML = () => {
     let HTMLString = `<ul>`
     for (const conspiracy of conspiracies) {
-        HTMLString += `<li id="featuredtruth__list--${conspiracy.id}">${conspiracy.quote}</li>`
+        HTMLString += `<li id="featuredtruth__list--${conspiracy.id}">${conspiracy.details}</li>`
     }
     return HTMLString
 }

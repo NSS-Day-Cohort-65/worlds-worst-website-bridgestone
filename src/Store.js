@@ -7,14 +7,12 @@ import { getStore } from "./database.js"
 const storeItems = getStore()
 
 // export new function: storeHTML
-// helper function: makes a <section> of each store item
-// initiate html string: <ul>
-// iterate over array
-// assign each to a <li> with id="featuredtruth__list--pk#here"
-// return finished HTML string
+// iterates over each item in storeItems
+// for each iteration: calls the helper function below
+// helper function: makes a <div> of each store item with details spelled out
 
 export const ConspiracyHTML = () => {
-    let HTMLString = `<ul>`
+    let HTMLString
     for (const item of storeItems) {
         const newItem = itemSection(item)
         HTMLString += newItem
