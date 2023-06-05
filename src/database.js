@@ -1,8 +1,8 @@
 const database = {
-    Conspiracies: [ {
+    Conspiracies: [{
         id: 1,
         name: "Birdgeoisie",
-        details: "Birds are not real. They are controlled by the goverment.🐦"
+        details: "Birds are not real. They are spy drones controlled by the goverment.🐦"
     },
     {
         id: 2,
@@ -12,7 +12,7 @@ const database = {
     {
         id: 3,
         name: "Bigfoot",
-        details: "Everyone becomes bigfoot after they die expect for you!👣"
+        details: "Everyone becomes bigfoot after they die expcept for you!👣"
     },
     {
         id: 4,
@@ -52,12 +52,12 @@ const database = {
     {
         id: 11,
         name: "Operation Greg",
-        details: "Greg is secrectly apart of the illuminati👁️"
+        details: "Greg is secrectly a part of the illuminati👁️"
     },
     {
         id: 12,
         name: "Trees",
-        details: "Trees are actually a government plant that we think we need to live.🌳"
+        details: "Trees are actually a government 'plant' that we think we need to live.🌳"
     },
     {
         id: 13,
@@ -69,8 +69,8 @@ const database = {
         name: "ChatGPT",
         details: "ChatGPT takes the info you give it and uses it to track and watch you!👀"
     },
-  ],
-    Slogans: [ {
+    ],
+    Slogans: [{
         id: 1,
         slogan: "Saving sheeple since 2008"
     },
@@ -86,8 +86,8 @@ const database = {
         id: 4,
         slogan: "Wake up !!!"
     }
-  ],
-    Store: [ {
+    ],
+    Store: [{
         id: 1,
         name: "Tin Foil Hat",
         price: 29.99,
@@ -111,15 +111,15 @@ const database = {
         price: 13.99,
         picURL: `https://m.media-amazon.com/images/I/719H4uOOOUL._SY445_.jpg`
     },
-  ]
+    ]
 }
 
 export const getConspiracies = () => {
-    return database.Conspiracies.map(Conspiracy =>({...Conspiracy}))
+    return database.Conspiracies.map(Conspiracy => ({ ...Conspiracy }))
 }
 export const getSlogans = () => {
-    return database.Slogans.map(slogan =>({...slogan}))
+    return database.Slogans.map(slogan => ({ ...slogan }))
 }
 export const getStore = () => {
-    return database.Store.map(item =>({...item}))
+    return database.Store.map(item => ({ ...item }))
 }
