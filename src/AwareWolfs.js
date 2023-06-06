@@ -2,7 +2,7 @@ import { ConspiracyHTML } from "./Conspiracies.js"
 import { getRandomSlogan } from "./slogans.js"
 import { StoreHTML } from "./Store.js"
 
- 
+
 
 export const AwareWolfs = () => {
     return `
@@ -212,9 +212,13 @@ export const AwareWolfs = () => {
                     <input type="email" id="footer__petition--email">
                     <button id="footer__petition--button">CLICK</button>
                 </section>
-                <img id="footer__img"
-                    src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif"
-                    alt="">
+                <div class="footer__images">
+                    <img id="footer__images--1" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">
+                    <img id="footer__images--2" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">
+                    <img id="footer__images--3" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">
+                    <img id="footer__images--4" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">
+                    <img id="footer__images--5" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">
+                </div>
                 <section class="music">
                     <iframe src="src/music/The Government Is Watching You - poptarts.wav" allow="autoplay" id="audio"
                         style="display: none"></iframe>

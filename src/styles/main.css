@@ -206,3 +206,13 @@ a:visited {
     border-width: 20px;
     filter: drop-shadow(0 0 4px lime)
 }
+
+.footer__images {
+    display: flex;
+    justify-content: center;
+}
+
+#footer__images--2,
+#footer__images--4 {
+    transform: rotate(180deg)
+}
