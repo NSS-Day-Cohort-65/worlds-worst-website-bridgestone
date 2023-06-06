@@ -2,7 +2,7 @@ import { ConspiracyHTML } from "./Conspiracies.js"
 import { getRandomSlogan } from "./slogans.js"
 import { StoreHTML } from "./Store.js"
 
-
+ 
 
 export const AwareWolfs = () => {
     return `
