@@ -12,7 +12,7 @@ const storeItems = getStore()
 // helper function: makes a <div> of each store item with details spelled out
 
 export const StoreHTML = () => {
-    let HTMLString
+    let HTMLString = ""
     for (const item of storeItems) {
         const newItem = itemSection(item)
         HTMLString += newItem
@@ -22,9 +22,10 @@ export const StoreHTML = () => {
 
 const itemSection = (item) => {
     let itemHTML = `<div id="store__item--${item.id}">`
-    itemHTML += `   <img id="store__item--img" src="${item.picURL}">`
+    itemHTML += `   <img id="store__item--img${item.id}" src="${item.picURL}">`
     itemHTML += `   <p id="store__item--name">${item.name}</p>`
-    itemHTML += `   <p id="store__item--price">${item.price}</p>`
-    itemHTML += `/div>`
+    itemHTML += `   <p id="store__item--price">ONLY $${item.price}!!</p>`
+    itemHTML += `   <button id="store__item--button" type="button">BUY ME!!</button>`
+    itemHTML += `</div>`
     return itemHTML
 }

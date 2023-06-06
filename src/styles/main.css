@@ -2,13 +2,13 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: red 1px solid;
-    border: black 1px solid;
-
-
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background: url("https://www.heavensgate.com/img/tile.jpg");
     color: #33FFCC;
+}
+
+* {
+    border: red 1px solid;
 }
 
 a:link {
@@ -135,3 +135,74 @@ a:visited {
 #featuredtruth__article {}
 
 #featuredtruth__list {}
+
+#store__title {
+    text-align: center;
+    font-size: 50px;
+}
+
+#store__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#store__item--name {
+    font-size: 25px;
+    filter: drop-shadow(5mm 5mm 1px orange)
+}
+
+#store__item--price {
+    text-shadow: #FC0 10px 0 10px;
+}
+
+#store__item--img1 {
+    height: 200px;
+    transform: rotate(5deg);
+    border-style: groove;
+    border-color: greenyellow;
+    border-width: 20px;
+    margin: 1em;
+    filter: drop-shadow(-5mm -5mm 1px cyan)
+}
+
+#store__item--img2 {
+    height: 200px;
+    transform: rotate(-15deg);
+    border-style: groove;
+    border-color: silver;
+    border-width: 10px;
+    margin: 1em;
+    filter: drop-shadow(5mm 5mm 1px orange)
+}
+
+#store__item--img3 {
+    height: 200px;
+    transform: rotate(25deg);
+    border-style: groove;
+    border-color: palevioletred;
+    border-width: 20px;
+    margin: 1em;
+    filter: drop-shadow(5mm -5mm 1px white)
+}
+
+#store__item--img4 {
+    height: 200px;
+    transform: rotate(15deg);
+    border-style: groove;
+    border-color: gold;
+    border-width: 40px;
+    margin: 1em;
+    filter: drop-shadow(-5mm 5mm 1px lime)
+}
+
+#store__item--button {
+    padding: 0.5em;
+    font-size: 30px;
+    background-color: rgb(255, 80, 246);
+    border-style: groove;
+    border-width: 20px;
+    filter: drop-shadow(0 0 4px lime)
+}
