@@ -11,6 +11,11 @@
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
+<<<<<<< HEAD
     alert("Your computer's location is now hidden from the government!")
 })
 
+=======
+    window.alert("Your computer's location is now hidden from the government!")
+})
+>>>>>>> main
