@@ -15,7 +15,7 @@ export const AwareWolfs = () => {
                 ${getRandomSlogan()}
             </div>
             <div id="header__bannerad">
-                <img src="https://cdn.shopify.com/s/files/1/2918/4630/files/Emergency-Survival-Food_4713a468-d565-4c7c-b5c4-f43d183fe16b.jpg?v=1680709629"
+                <img src="src/images/Emergency-Survival-Food - udpated.png"
                     alt="">
             </div>
             <nav id="header__nav">
@@ -28,14 +28,15 @@ export const AwareWolfs = () => {
             <button id="button" type="button">Click here to hide your location</button>
             <section class="topads">
                 <div id="topads--1"><img
-                        src="https://www.thereadystore.com/media/wysiwyg/email-banner-easyprep-long-term-kits.jpg"
+                        src="src/images/email-banner-easyprep-long-term-kits - 2.0.jpg"
                         alt="prepper food advertisement 1"></div>
                 <div id="topads--2"><img
-                        src="https://atlassurvivalshelters.com/wp-content/uploads/2022/10/slider-precast-concrete-bomb-shelter.jpg"
+                        src="src/images/slider-precast-concrete-bomb-shelter 2.0.jpg"
                         alt="bomb shelter advertisement"></div>
                 <div id="topads--3"><img
-                        src="https://hb.imgix.net/687bf67c9ac13308e5dbd6d889a023464e6b8751.png?auto=compress,format&h=630&w=1200&s=7e634213cff0ec47f96ef29c5a838e35"
+                        src="src/images/preppermanual 2.0.png"
                         alt=""></div>
+
             </section>
             <article class="intros">
                 <section id="intros__about">

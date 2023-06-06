@@ -61,31 +61,13 @@ a:visited {
     padding: 0.5em;
     font-size: 30px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .topads {
     display: flex;
     flex-wrap: wrap;
-    font-size: 100px;
     justify-content: space-evenly;
-}
-
-#topads--1 {
-    width: 100px;
-    height: 100px;
-
-}
-
-#topads--2 {
-    width: 100px;
-    height: 100px;
-
-}
-
-#topads--3 {
-    width: 100px;
-    height: 100px;
 }
 
 .intros {
