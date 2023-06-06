@@ -2,9 +2,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
     border: red 1px solid;
-
     border: black 1px solid;
 
 
@@ -71,21 +69,6 @@ a:visited {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-/* #topads--1 {
-    max-width:2em;
-    max-height: 2em;
-}
-
-#topads--2 {
-    max-width:2em;
-    max-height: 2em;
-}
-
-#topads--3 {
-    max-width:2em;
-    max-height: 2em;
-} */
 
 .intros {
     display: flex;

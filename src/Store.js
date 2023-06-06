@@ -11,7 +11,7 @@ const storeItems = getStore()
 // for each iteration: calls the helper function below
 // helper function: makes a <div> of each store item with details spelled out
 
-export const ConspiracyHTML = () => {
+export const StoreHTML = () => {
     let HTMLString
     for (const item of storeItems) {
         const newItem = itemSection(item)
