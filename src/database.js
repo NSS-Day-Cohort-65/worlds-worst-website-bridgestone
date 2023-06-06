@@ -72,15 +72,15 @@ const database = {
     ],
     Slogans: [{
         id: 1,
-        slogan: "Saving sheeple since 2008"
+        slogan: "Saving SHEEPLE LIKE YOU since 2008"
     },
     {
         id: 2,
-        slogan: "Banned by the U.S. Government"
+        slogan: "Banned by the Governments of the United States, Canada, and Zimbabwe"
     },
     {
         id: 3,
-        slogan: "For your eyes only"
+        slogan: "For your eyes only ... ... ..."
     },
     {
         id: 4,

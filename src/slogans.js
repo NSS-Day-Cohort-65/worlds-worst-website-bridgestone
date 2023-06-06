@@ -13,10 +13,7 @@ const getRandom = (slogans) => {
 const returnedRandomNumber = getRandom(slogans)
 
 export const getRandomSlogan = () => {
-    let randomSlogan = (slogans[returnedRandomNumber])
+    let randomSlogan = slogans[returnedRandomNumber].slogan
     return randomSlogan
 }
-
-let returnedSlogan = getRandomSlogan()
-console.log(returnedSlogan)
 
