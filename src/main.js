@@ -8,6 +8,8 @@ const renderAllHTML = () => {
 
 renderAllHTML()
 
+
+// hide location from gvt button
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
