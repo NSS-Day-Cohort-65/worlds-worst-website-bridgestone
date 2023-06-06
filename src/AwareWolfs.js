@@ -2,7 +2,7 @@ import { ConspiracyHTML } from "./Conspiracies.js"
 import { getRandomSlogan } from "./slogans.js"
 import { StoreHTML } from "./Store.js"
 
-
+ 
 
 export const AwareWolfs = () => {
     return `
@@ -40,7 +40,7 @@ export const AwareWolfs = () => {
             <article class="intros">
                 <section id="intros__about">
                     <img id="intros__about--img"
-                        src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855736385/files/original"
+                        src="https://media.tenor.com/ud2ARq6upUEAAAAd/you-see-it-is.gif"
                         alt="">
                     Coming to you from an undisclosed location ......
                     ... banned by the federal Government of the U.S.A...
@@ -58,10 +58,10 @@ export const AwareWolfs = () => {
                 </section>
                 <section id="intros__cease">
                     <img id="intros__cease--img1"
-                        src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855056010/files/original"
+                        src="https://www.heavensgate.com/img/redalrt3.gif"
                         alt="">
                     <img id="intros__cease--img2"
-                        src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855056010/files/original"
+                        src="https://www.heavensgate.com/img/redalrt3.gif"
                         alt="">
                     THE GOVERNMENT SENT US A CEASE AND DESIST ORDER
                     SEE FOR YOURSELF
@@ -85,7 +85,7 @@ export const AwareWolfs = () => {
                     |
                     BUT WE WONT LISTEN
                     <img id="intros__cease--img3"
-                        src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855039140/files/original"
+                        src="https://i.gifer.com/origin/42/427802ec1354defeb34d9e684c380db9_w200.webp"
                         alt="">
                 </section>
             </article>
@@ -121,14 +121,14 @@ export const AwareWolfs = () => {
                     </div>
                 </section>
                 <section id="featuredtruth__construction">
-                    <img src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855039218/files/original"
+                    <img src="https://64.media.tumblr.com/f0da7c50d726e64c6c0d8a985240b6f4/dfbbb68a95adf2d4-ce/s250x400/afe73dd5883647200c53408018ed3be99b567b80.gif"
                         alt="">
                     Website under construction banner here
                 </section>
                 <section class="chatgpt_and_truths">
                     <section id="featuredtruth__article">
                         <img id="featuredtruth__article--img1"
-                            src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855163208/files/original"
+                            src="https://i.gifer.com/Nt6u.mp4"
                             alt="">
                         &lt;h2&gt;
                         CHAT GPT KNOWS!
@@ -169,7 +169,7 @@ export const AwareWolfs = () => {
                         the reptilian agenda. Unite, my fellow truth-seekers! Break free from the reptilian matrix and
                         reclaim
                         <img id="featuredtruth__article--img3"
-                            src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855163257/files/original"
+                            src="https://images.squarespace-cdn.com/content/v1/5d7bb7a17606e352c9d76e24/1580600240409-GRQXV2JG7NHQA0MP51R7/ks-web-illuminati-2.gif?format=500w"
                             alt="">
                         But fear not, for there is hope! By spreading awareness and awakening others to the truth, we
                         can
@@ -190,7 +190,7 @@ export const AwareWolfs = () => {
             </article>
             <section class="store">
                 <img id="store__img"
-                    src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855736372/files/original"
+                    src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_450,w_800,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1542560722/181118-weill-flat-earth-convention-hero-1_mcgxkz"
                     alt="">
                 <p id="store__title">SUPPORT THE FIGHT!!! BUY MY THINGS!!!!</p>
                 <div id="store__item">
@@ -212,7 +212,7 @@ export const AwareWolfs = () => {
                     <button id="footer__petition--button">CLICK</button>
                 </section>
                 <img id="footer__img"
-                    src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855039130/files/original"
+                    src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif"
                     alt="">
                 <section class="music">
                     <iframe src="src/music/The Government Is Watching You - poptarts.wav" allow="autoplay" id="audio"
