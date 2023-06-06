@@ -1,15 +1,21 @@
-import { AwareWolfs } from "./AwareWolfs.js";
+// import { AwareWolfs } from "./AwareWolfs.js";
 
-const mainContainer = document.querySelector("#main")
+// const mainContainer = document.querySelector("#main")
 
-const renderAllHTML = () => {
-    mainContainer.innerHTML = AwareWolfs()
-}
+// const renderAllHTML = () => {
+//     mainContainer.innerHTML = AwareWolfs()
+// }
 
-renderAllHTML()
+// renderAllHTML()
 
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
+<<<<<<< HEAD
+    alert("Your computer's location is now hidden from the government!")
+})
+
+=======
     window.alert("Your computer's location is now hidden from the government!")
 })
+>>>>>>> main

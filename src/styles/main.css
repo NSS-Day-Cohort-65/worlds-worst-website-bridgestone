@@ -5,6 +5,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: black 1px solid;
+}
+
     border: red 1px solid;
 
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -99,4 +102,21 @@
 
 .chatgpt_and_truths {
     /* font-size: 40px; */
+}
+
+#topads--1 {
+    width:100px;
+   height:100px;
+    
+}
+
+#topads--2 {
+    width:100px;
+   height:100px;
+    
+}
+
+#topads--3 {
+    width:100px;
+    height:100px;
 }
