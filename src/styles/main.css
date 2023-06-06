@@ -2,7 +2,12 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: red 1px solid; */
+
+    border: red 1px solid;
+
+    border: black 1px solid;
+}
+
 
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     background: url("https://www.heavensgate.com/img/tile.jpg");
@@ -69,6 +74,23 @@ a:visited {
     justify-content: space-evenly;
 }
 
+#topads--1 {
+    width:100px;
+   height:100px;
+    
+}
+
+#topads--2 {
+    width:100px;
+   height:100px;
+    
+}
+
+#topads--3 {
+    width:100px;
+    height:100px;
+}
+
 .intros {
     display: flex;
     flex-flow: row;
@@ -129,6 +151,7 @@ a:visited {
     display: flex;
     /* font-size: 40px; */
 }
+
 
 #featuredtruth__article {}
 
