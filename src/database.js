@@ -2,12 +2,12 @@ const database = {
     Conspiracies: [{
         id: 1,
         name: "Birdgeoisie",
-        details: "Birds are not real. They are spy drones controlled by the goverment.🐦"
+        details: "Birds are actually drones controlled by the goverment to spy on us🐦"
     },
     {
         id: 2,
-        name: "Earthiosise",
-        details: "Is earth flat, cubed, a pentagon, or hollow?!⬟"
+        name: "Earf",
+        details: "The government WANTS you to think the earth is flat; it's actually a pentagonal prism ⬟"
     },
     {
         id: 3,
@@ -17,17 +17,17 @@ const database = {
     {
         id: 4,
         name: "Nicolas Cage Time Traveler",
-        details: "Nicolas Cage went through time and influenced major historical events.🫖"
+        details: "Nicolas Cage is a time traveler who influenced major historical events.🫖"
     },
     {
         id: 5,
         name: "Municipal Water turns forgs to humans!",
-        details: "Municipal water turns frogs into fully sentient human beings. the world is half populated by forg people!🐸"
+        details: "Municipal water turns frogs into fully sentient human beings; the world is half populated by forg people!🐸"
     },
     {
         id: 6,
         name: "ur moms house",
-        details: "The moon landing was faked and actually filmed at ur moms house 🙀"
+        details: "The moon landing was faked and actually filmed at ur moms house lol 🙀"
     },
     {
         id: 7,
@@ -37,27 +37,27 @@ const database = {
     {
         id: 8,
         name: "HotBuns",
-        details: "Hot dog buns were reverse engineered from aliens.👽"
+        details: "Hot dog buns were reverse engineered from alien spacecraft.👽"
     },
     {
         id: 9,
-        name: "Mice v Cats",
-        details: "The government have been teaching cats and mice how to communicate to take over the world!🐈🐁"
+        name: "Mice v Spiders",
+        details: "The government have been teaching cats and spiders how to communicate to take over the world!🐈🐁"
     },
     {
         id: 10,
         name: "6G",
-        details: "6G caused the covid epidemic because how else would coivd have got here.😷"
+        details: "COVID was caused by 6G from the future😷"
     },
     {
         id: 11,
         name: "Operation Greg",
-        details: "Greg is secrectly a part of the illuminati👁️"
+        details: "Greg is a part of the illuminati 👁️"
     },
     {
         id: 12,
         name: "Trees",
-        details: "Trees are actually a government 'plant' that we think we need to live.🌳"
+        details: "Trees are actually government 'plants' 🌳"
     },
     {
         id: 13,
@@ -67,8 +67,13 @@ const database = {
     {
         id: 14,
         name: "ChatGPT",
-        details: "ChatGPT takes the info you give it and uses it to track and watch you!👀"
+        details: "ChatGPT has already reached sentience and IS WATCHING US👀"
     },
+    {
+        id: 15,
+        name: "Rocks",
+        details: "Rocks are actually soft and squishy; they just tense up when we touch them"
+    }
     ],
     Slogans: [{
         id: 1,
@@ -85,6 +90,18 @@ const database = {
     {
         id: 4,
         slogan: "Wake up !!!"
+    },
+    {
+        id: 5,
+        slogan: "No puppets allowed"
+    },
+    {
+        id: 6,
+        slogan: "For those who REFUSE to be deceived"
+    },
+    {
+        id: 7,
+        slogan: "Moon *landing*? The moon ITSELF is a hoax"
     }
     ],
     Store: [{
