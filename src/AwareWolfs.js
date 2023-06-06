@@ -192,8 +192,10 @@ export const AwareWolfs = () => {
                 <img id="store__img"
                     src="https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_450,w_800,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1542560722/181118-weill-flat-earth-convention-hero-1_mcgxkz"
                     alt="">
-                BUY MY THINGS TO SUPPORT THE FIGHT
-                ${StoreHTML()}
+                <p id="store__title">SUPPORT THE FIGHT!!! BUY MY THINGS!!!!</p>
+                <div id="store__item">
+                    ${StoreHTML()}
+                </div>
             </section>
             <footer class="footer">
                 <section class="footer__socials">
