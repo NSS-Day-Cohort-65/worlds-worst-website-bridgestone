@@ -192,8 +192,10 @@ export const AwareWolfs = () => {
                 <img id="store__img"
                     src="https://miro.com/api/v1/documents/MAAACYuW-KIwAAAJ5PFVsA/resources/3458764514855736372/files/original"
                     alt="">
-                BUY MY THINGS TO SUPPORT THE FIGHT
-                ${StoreHTML()}
+                <p id="store__title">SUPPORT THE FIGHT!!! BUY MY THINGS!!!!</p>
+                <div id="store__item">
+                    ${StoreHTML()}
+                </div>
             </section>
             <footer class="footer">
                 <section class="footer__socials">
