@@ -6,7 +6,6 @@ body {
     border: red 1px solid;
 
     border: black 1px solid;
-}
 
 
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -64,32 +63,29 @@ a:visited {
     padding: 0.5em;
     font-size: 30px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .topads {
     display: flex;
     flex-wrap: wrap;
-    font-size: 100px;
     justify-content: space-evenly;
 }
 
-#topads--1 {
-    width:100px;
-   height:100px;
-    
+/* #topads--1 {
+    max-width:2em;
+    max-height: 2em;
 }
 
 #topads--2 {
-    width:100px;
-   height:100px;
-    
+    max-width:2em;
+    max-height: 2em;
 }
 
 #topads--3 {
-    width:100px;
-    height:100px;
-}
+    max-width:2em;
+    max-height: 2em;
+} */
 
 .intros {
     display: flex;
