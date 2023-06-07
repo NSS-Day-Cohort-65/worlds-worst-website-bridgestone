@@ -80,14 +80,14 @@ export const AwareWolfs = () => {
                 </section>
                 <section id="intros__cease">
                     <img id="intros__cease--img1"
-                        src="https://www.heavensgate.com/img/redalrt3.gif"
-                        alt="">
+                    src="https://www.heavensgate.com/img/redalrt3.gif"
+                    alt="">
                     <img id="intros__cease--img2"
-                        src="https://www.heavensgate.com/img/redalrt3.gif"
-                        alt="">
+                    src="https://www.heavensgate.com/img/redalrt3.gif"
+                    alt="">
                     <img id="intros__cease--img3"
-                        src="https://i.gifer.com/origin/42/427802ec1354defeb34d9e684c380db9_w200.webp"
-                        alt="">
+                    src="https://i.gifer.com/origin/42/427802ec1354defeb34d9e684c380db9_w200.webp"
+                    alt="">
                     <span id="cease__text">
                     <p id="arrow">THE GOVERNMENT SENT US A CEASE AND DESIST ORDER</p>
                     <p id="arrow">SEE FOR YOURSELF</p>

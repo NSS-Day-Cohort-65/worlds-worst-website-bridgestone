@@ -64,6 +64,20 @@ a:visited {
     font-weight: bold;
 }
 
+#button:hover {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: red;
+    color: lime;
+    border: lime;
+    border-style: dotted;
+    border-width: 10px;
+    padding: 0.5em;
+    font-size: 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+}
+
 #intros__about {
     display: flex;
     justify-content: space-around;
@@ -315,6 +329,17 @@ a:visited {
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+#footer__petition--button:hover {
+    min-width: 50%;
+    max-width: 90%;
+    margin: auto;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: red;
+    font-weight: bold;
 }
 
 .footer__images {
