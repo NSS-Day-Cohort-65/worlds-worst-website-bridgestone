@@ -65,30 +65,32 @@ export const AwareWolfs = () => {
                     <img id="intros__cease--img2"
                         src="https://www.heavensgate.com/img/redalrt3.gif"
                         alt="">
-                    THE GOVERNMENT SENT US A CEASE AND DESIST ORDER
-                    SEE FOR YOURSELF
-                    |
-                    |
-                    |
-                    |
-                    |
-                    v
-                    https://www.google.com/search?rlz=1C1CHWL_enUS1017US1017&sxsrf=APwXEdeMF9JgS-TyMrS5o3Lw2nLE2zMBGA:1685982347805&q=cease+and+desist+order&tbm=isch&sa=X&ved=2ahUKEwiRycDXxaz_AhUrlmoFHRQ9BAcQ0pQJegQICxAB&biw=1709&bih=918#imgrc=9poiRuLlymj9UM
-                    ^
-                    |
-                    |
-                    |
-                    |
-                    |
-                    |
-                    |
-                    |
-                    |
-                    |
-                    BUT WE WONT LISTEN
                     <img id="intros__cease--img3"
                         src="https://i.gifer.com/origin/42/427802ec1354defeb34d9e684c380db9_w200.webp"
                         alt="">
+                    <span id="cease__text">
+                    <p id="arrow">THE GOVERNMENT SENT US A CEASE AND DESIST ORDER</p>
+                    <p id="arrow">SEE FOR YOURSELF</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow_point">v</p>
+                    https://www.google.com/search?rlz=1C1CHWL_enUS1017US1017&sxsrf=APwXEdeMF9JgS-TyMrS5o3Lw2nLE2zMBGA:1685982347805&q=cease+and+desist+order&tbm=isch&sa=X&ved=2ahUKEwiRycDXxaz_AhUrlmoFHRQ9BAcQ0pQJegQICxAB&biw=1709&bih=918#imgrc=9poiRuLlymj9UM
+                    <p id="arrow_point">^</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">|</p>
+                    <p id="arrow">BUT WE WONT LISTEN</p>
+                    </span>
                 </section>
             </article>
             <article class="featuredtruth">
@@ -236,7 +238,7 @@ export const AwareWolfs = () => {
                 </div>
                 <section class="music">
                 <iframe src="src/music/The Government Is Watching You - poptarts.wav" allow="autoplay" id="audio"
-                style="display: none"></iframe>
+                    style="display: none"></iframe>
                     <audio id="player" controls autoplay="autoplay" loop>
                         <source src="src/music/The Government Is Watching You - poptarts.ogg" type="audio/ogg">
                         <source src="src/music/The Government Is Watching You - poptarts.mp3" type="audio/mp3">
