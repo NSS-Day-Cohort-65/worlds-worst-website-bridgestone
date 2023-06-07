@@ -236,14 +236,6 @@ export const AwareWolfs = () => {
                 </div>
             </section>
             <footer class="footer">
-                <section class="footer__socials">
-                    Social Links:
-                    <ul>
-                        <li>ul 1 Twitter</li>
-                        <li>ul 2 Myspace</li>
-                        <li>ul 3 Tumblr</li>
-                    </ul>
-                </section>
                 <section id="footer__petition">
                     <label for="email" id="footer__petition--prompt">Sign our petition to rename "fire ants" to "spicey bois":</label>
                     <input type="email" id="footer__petition--email">
@@ -267,6 +259,17 @@ export const AwareWolfs = () => {
                         Your browser does not support the audio element.
                         </source>
                     </audio>
+                </section>
+                <section class="footer__socials">
+                    Social Links:
+                    <ul id="footer__socials--list">
+                        <li id="footer__socials--list1">ul 1 Twitter</li>
+                        <li id="footer__socials--list2">ul 2 Myspace</li>
+                        <li id="footer__socials--list3">
+                            ul 3 Tumblr
+                            <img src="https://assets.stickpng.com/images/61378cc14b96600004f676e2.png">    
+                        </li>
+                    </ul>
                 </section>
             </footer>
 
