@@ -80,8 +80,8 @@ export const AwareWolfs = () => {
                 </section>
                 <section id="intros__cease">
                     <img id="intros__cease--img1"
-                        src="https://www.heavensgate.com/img/redalrt3.gif"
-                        alt="">
+                    src="https://www.heavensgate.com/img/redalrt3.gif"
+                    alt="">
                     <img id="intros__cease--img2"
                         src="https://www.heavensgate.com/img/redalrt3.gif"
                         alt="">
@@ -262,21 +262,33 @@ export const AwareWolfs = () => {
                 </section>
                 <section class="footer__socials">
                     Social Links:
-                    <ul id="footer__socials--list">
-                        <li id="footer__socials--list1">ul 1 Twitter</li>
-                        <li id="footer__socials--list2">ul 2 Myspace</li>
-                        <li id="footer__socials--list3">
+                    <div id="footer__socials--list">
+                        <div id="footer__socials--list1">
+                            ul 1 Twitter
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                <img id="footer__socials--list1img" src="https://www.aps.edu/sapr/images/pnglot.comtwitterbirdlogopng139735.png/image">
+                            </a>
+                        </div>
+                        <div id="footer__socials--list2">
+                            ul 2 Myspace
+                            <a href="/myspace/">
+                                <img id="footer__socials--list2img"src="https://icons.iconarchive.com/icons/martz90/circle/512/myspace-icon.png">
+                            </a>    
+                        </div>
+                        <div id="footer__socials--list3">
                             ul 3 Tumblr
-                            <img src="https://assets.stickpng.com/images/61378cc14b96600004f676e2.png">    
-                        </li>
-                    </ul>
+                            <a href="http://www.patience-is-a-virtue.org/">
+                                <img id="footer__socials--list3img" src="https://assets.stickpng.com/images/61378cc14b96600004f676e2.png">
+                            </a>
+                        </div>
+                    </div>
                 </section>
             </footer>
 
 
         </main>
 
-
+ser
     </body>
     `
 }
