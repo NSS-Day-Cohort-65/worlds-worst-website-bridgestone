@@ -222,8 +222,8 @@ export const AwareWolfs = () => {
                     <img id="footer__images--5" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">
                 </div>
                 <section class="music">
-                    <iframe src="src/music/The Government Is Watching You - poptarts.wav" allow="autoplay" id="audio"
-                        style="display: none"></iframe>
+                <iframe src="src/music/The Government Is Watching You - poptarts.wav" allow="autoplay" id="audio"
+                style="display: none"></iframe>
                     <audio id="player" controls autoplay="autoplay" loop>
                         <source src="src/music/The Government Is Watching You - poptarts.ogg" type="audio/ogg">
                         <source src="src/music/The Government Is Watching You - poptarts.mp3" type="audio/mp3">
@@ -241,3 +241,4 @@ export const AwareWolfs = () => {
     </body>
     `
 }
+

@@ -137,10 +137,9 @@ a:visited {
     /* font-size: 40px; */
 }
 
-
-#featuredtruth__article {}
-
-#featuredtruth__list {}
+#featuredtruth__list {
+    width: 500em
+}
 
 #store__title {
     text-align: center;
