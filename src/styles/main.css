@@ -91,8 +91,8 @@ a:visited {
 }
 
 #intros__cease {
-    display: flex;
-    
+    /* display: flex; */
+    text-align: justify;
 }
 
 #arrow {
@@ -102,6 +102,11 @@ a:visited {
     border: 0;
     margin: 0;
     font-size: 30px;
+}
+
+#cease__text {
+    width: 100%;
+    display: block;
 }
 
 #arrow_point {
@@ -129,8 +134,8 @@ a:visited {
     height: 480px;
     width: 430px;
     position: relative;
-    top: 100px;
-    left: -500px;
+    top: 0px;
+    left: 530px;
 }
 
 #featuredtruth__title {
