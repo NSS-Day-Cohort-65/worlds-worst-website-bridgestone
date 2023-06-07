@@ -1,7 +1,27 @@
 import { ConspiracyHTML } from "./Conspiracies.js"
 import { getRandomSlogan } from "./slogans.js"
 import { StoreHTML } from "./Store.js"
+import { addAnt } from "./database.js"
+import { Ants } from "./ants.js"
 
+
+// event listener for Spicey Boi Petition button.
+// listens for click;
+// event object passed in to built-in function
+// assigns the target parameter of the click object to const var, clickedItem
+// if the id of the clickedItem element is "orderButton",
+// addCustomOrder() from database.js is called
+// this will change the permanent state of the application, adding to the HTML
+
+document.addEventListener(
+    "click",
+    (event) => {
+        const clickedItem = event.target
+        if (clickedItem.id === "footer__petition--button") {
+            addAnt()
+        }
+    }
+)
 
 
 export const AwareWolfs = () => {
@@ -225,9 +245,10 @@ export const AwareWolfs = () => {
                     </ul>
                 </section>
                 <section id="footer__petition">
-                    <label for="email">Sign our petition to rename "fire ants" to "spicey bois":</label>
+                    <label for="email" id="footer__petition--prompt">Sign our petition to rename "fire ants" to "spicey bois":</label>
                     <input type="email" id="footer__petition--email">
                     <button id="footer__petition--button">CLICK</button>
+                    ${Ants()}
                 </section>
                 <div class="footer__images">
                     <img id="footer__images--1" src="https://media.tenor.com/v9fF39h0R14AAAAd/alien-dance.gif" alt="">

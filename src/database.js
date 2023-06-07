@@ -128,8 +128,20 @@ const database = {
         price: 13.99,
         picURL: `https://m.media-amazon.com/images/I/719H4uOOOUL._SY445_.jpg`
     },
-    ]
+    ],
+    antCollection: [
+        {
+            id: 1,
+            ant: "https://i.gifer.com/Uj2S.gif"
+        },
+    ],
+    antPrinter: {
+        ant: "https://i.gifer.com/Uj2S.gif"
+    }
 }
+
+
+// Getter functions
 
 export const getConspiracies = () => {
     return database.Conspiracies.map(Conspiracy => ({ ...Conspiracy }))
@@ -140,3 +152,41 @@ export const getSlogans = () => {
 export const getStore = () => {
     return database.Store.map(item => ({ ...item }))
 }
+export const getAnts = () => {
+    return database.antCollection.map(ant => ({ ...ant }))
+}
+
+// Setter function - this function will be invoked to set the permenant state of antCollection in the database.
+
+export const addAnt = () => {
+    const newAnt = {} // = { ...database.antPrinter }
+    const lastIndex = database.antCollection.length - 1
+    newAnt.id = database.antCollection[lastIndex].id + 1
+    newAnt.ant = database.antPrinter.ant
+    database.antCollection.push(newAnt)
+    document.dispatchEvent(new CustomEvent("stateChanged"))
+}
+
+
+// export const addCustomOrder = () => {
+//     // Copy the current state of user choices
+//     const newOrder = { ...database.orderBuilder } // creates new object, newOrder, and assigns the current state of orderBuilder in database.
+//     // *** why do we need spread operator + curly brackets? ***
+
+//     // Add a new primary key to the object
+//     const lastIndex = database.customOrders.length - 1 // creates new variable, lastIndex, and assigns the current length of the customOrders array, minus 1.
+//     // ^ this will be used to provide the index value below.
+//     newOrder.id = database.customOrders[lastIndex].id + 1 // finds the object at the lastIndex position, accesses id property plus 1, assigns to id property of newOrder
+
+//     // Add a timestamp to the order
+//     newOrder.timestamp = Date.now() // adds timestamp property and assigns a value accordingly
+
+//     // Add the new order object to custom orders state
+//     database.customOrders.push(newOrder)
+
+//     // Reset the temporary state for user choices
+//     database.orderBuilder = {}
+
+//     // Broadcast a notification that permanent state has changed
+//     document.dispatchEvent(new CustomEvent("stateChanged"))
+// }
