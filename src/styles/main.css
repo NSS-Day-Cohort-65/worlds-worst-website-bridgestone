@@ -105,7 +105,7 @@ a:visited {
 #featuredtruth__text span {
     position: relative;
     display: inline-block;
-    color: #fff;
+    color: rgb(0, 255, 255);
     font-size: 1.5em;
     animation: wave ease-in-out 2s infinite;
     animation-delay: calc(.1s*var(--i));
@@ -151,14 +151,21 @@ a:visited {
     display: flex;
     /* font-size: 40px; */
 }
+#featuredtruth__article--textcolor {
+    color: rgb(178, 119, 0);
+    filter: drop-shadow(0.5mm 0.5mm 0.5px rgb(119, 255, 0));
+}
 
 #featuredtruth__list {
     width: 500em
 }
 
 #store__title {
+    color: #00bbff;
+    text-shadow: #33FFCC 20px 0 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
+    font-family: Snell Roundhand, cursive;
 }
 
 #store__item {
