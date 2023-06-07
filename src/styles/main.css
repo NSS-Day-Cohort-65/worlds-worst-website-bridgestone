@@ -64,6 +64,21 @@ a:visited {
     font-weight: bold;
 }
 
+#intros__about {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column-reverse wrap;
+    
+}
+
+#intros__about--img {
+    height: 225px;
+    width: 225px;
+    flex-basis: auto;
+    align-self: center;
+
+}
+
 .topads {
     display: flex;
     flex-wrap: wrap;

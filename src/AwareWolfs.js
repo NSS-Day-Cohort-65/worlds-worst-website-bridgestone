@@ -43,7 +43,7 @@ export const AwareWolfs = () => {
                     <img id="intros__about--img"
                         src="https://media.tenor.com/ud2ARq6upUEAAAAd/you-see-it-is.gif"
                         alt="">
-                    Coming to you from an undisclosed location ......
+                    <p style = "color: red;font-size:46px;"> Coming to you from an undisclosed location ......
                     ... banned by the federal Government of the U.S.A...
 
                     WHAT WE KNOW::
@@ -53,6 +53,7 @@ export const AwareWolfs = () => {
                     we are being watched by the CIA, FBI, bigfoot
                     its time to wake up !!!
                     2025!!!! !
+                    </p>
                 </section>
                 <section id="intros__ad">
                     ad 1
