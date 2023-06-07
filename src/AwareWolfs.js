@@ -66,12 +66,12 @@ export const AwareWolfs = () => {
                     <p style = "color: red;font-size:46px;"> Coming to you from an undisclosed location ......
                     ... banned by the federal Government of the U.S.A...
 
-                    WHAT WE KNOW::
+                    WHAT WE KNOW::<br>
 
-                    we know the truth
-                    your being lied too
-                    we are being watched by the CIA, FBI, bigfoot
-                    its time to wake up !!!
+                    we know the truth<br>
+                    your being lied too<br>
+                    we are being watched by the CIA, FBI, bigfoot<br>
+                    its time to wake up !!!<br>
                     2025!!!! !
                     </p>
                 </section>
