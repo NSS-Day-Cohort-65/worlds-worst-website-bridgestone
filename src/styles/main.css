@@ -24,10 +24,11 @@ a:visited {
 }
 
 #header__title {
-    font-weight: 1000;
-    font-size: 32px;
+    font-weight: 2000;
+    font-size: 46px;
     display: flex;
     justify-content: center;
+    color: red;
 }
 
 #header__subtitle {
@@ -37,9 +38,9 @@ a:visited {
 }
 
 #header__bannerad {
-    font-size: 125px;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-self: center;
 }
 
 #header__nav {
@@ -97,6 +98,7 @@ a:visited {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .intros {
