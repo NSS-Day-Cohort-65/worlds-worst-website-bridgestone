@@ -293,6 +293,10 @@ a:visited {
     color: rgb(255, 80, 246)
 }
 
+#footer__petition--font {
+    font-family: Snell Roundhand, cursive;
+}
+
 #footer__petition--email {
     min-width: 50%;
     max-width: 90%;

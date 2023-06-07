@@ -245,7 +245,7 @@ export const AwareWolfs = () => {
                     </ul>
                 </section>
                 <section id="footer__petition">
-                    <label for="email" id="footer__petition--prompt">Sign our petition to rename "fire ants" to "spicey bois":</label>
+                    <label for="email" id="footer__petition--prompt">Sign our petition to rename "fire ants" to "<span id="footer__petition--font">spicey bois</span>":</label>
                     <input type="email" id="footer__petition--email">
                     <button id="footer__petition--button">CLICK</button>
                     ${Ants()}
